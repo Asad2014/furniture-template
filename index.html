@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==
+  "crossorigin="anonymous" referrerpolicy="
+  no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <header class="w-full h-auto">
+    <div class="flex justify-between items-center mx-5 pb-3 border-b-2">
+    
+      <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      
+    
+      <div>
+        <h1 class="text-[24px] pl-5 lg:pl-0">Avion</h1>
+      </div>
+  
+      
+      <div class="space-x-2 lg:flex hidden">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-user-circle"></i>
+      </div>
+  
+    
+      <button
+        onclick="toggleMenu()"
+        class="lg:hidden p-2 text-black">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </button>
+    </div>
+  
+    
+    <nav class="lg:flex hidden justify-center">
+      <ul class="flex justify-center items-center space-x-5 mt-3 text-base">
+        <li><a href="/Plant-pots" class="hover:text-gray-900">Plant pots</a></li>
+        <li><a href="/Ceramics" class="hover:text-gray-900">Ceramics</a></li>
+        <li><a href="/Tables" class="hover:text-gray-900">Tables</a></li>
+        <li><a href="/Chairs" class="hover:text-gray-900">Chairs</a></li>
+        <li><a href="/Crockery" class="hover:text-gray-900">Crockery</a></li>
+        <li><a href="/Tableware" class="hover:text-gray-900">Tableware</a></li>
+        <li><a href="/Cutlery" class="hover:text-gray-900">Cutlery</a></li>
+      </ul>
+    </nav>
+  
+    <!-- Mobile Menu -->
+    <nav class="mobileMenu hidden lg:hidden">
+      <ul class="flex flex-col items-center space-y-1 p-3 text-base">
+        <li><a href="/Plant-pots" class="hover:text-gray-900">Plant pots</a></li>
+        <li><a href="/Ceramics" class="hover:text-gray-900">Ceramics</a></li>
+        <li><a href="/Tables" class="hover:text-gray-900">Tables</a></li>
+        <li><a href="/Chairs" class="hover:text-gray-900">Chairs</a></li>
+        <li><a href="/Crockery" class="hover:text-gray-900">Crockery</a></li>
+        <li><a href="/Tableware" class="hover:text-gray-900">Tableware</a></li>
+        <li><a href="/Cutlery" class="hover:text-gray-900">Cutlery</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+    <!-- Hero-Section -->
+  <section class="h-auto w-full flex flex-col lg:flex-row justify-center items-center mt-10 px-5">
+    
+    <div class="bg-[#2A254B] text-white w-full lg:w-[600px] h-auto lg:h-[560px] p-5 lg:pl-10 lg:pt-7">
+      <h1 class="text-[24px] lg:text-[32px]">
+        The furniture brand for the <br> future, with timeless designs
+      </h1>
+      <button class="bg-[#F9F9F926] py-3 px-4 mt-5">
+        View collection
+      </button>
+      <p class="text-[16px] lg:text-[18px] mt-10 lg:mt-60">
+        A new era in eco-friendly furniture with Avelon, the French luxury <br class="hidden lg:block">
+        retail brand with nice fonts, tasteful colors, and a beautiful way to display things
+        digitally using modern web technologies.
+      </p>
+    </div>
+  
+    <!-- Image Section -->
+    <div class="mt-5 lg:mt-0">
+      <img 
+        src="images/Right Image.png" 
+        alt="Modern chair design" 
+        class="w-full max-w-[500px] h-auto mx-auto"
+      >
+    </div>
+  </section>
+  
+
+
+  <section class="h-auto mt-24 mb-10">
+    <div>
+      <h1 class="text-center text-[24px]">What makes our brand different</h1>
+    </div>
+    <div class="flex justify-center mt-8 gap-7 flex-col lg:flex-row text-center">
+    <div>
+      <img src="images/Delivery.png" alt="delivery" class="mx-auto">
+      <h1 class="text-[20px]">Next day as standard</h1>
+      <p class="text-[16px]">Order before 3pm and get your order <br> the next day as standard</p>
+    </div>
+    <div>
+      <img src="images/Checkmark--outline.png" alt="check" class="mx-auto">
+      <h1 class="text-[20px]">Made by true artisans</h1>
+      <p class="text-[16px]">Handmade crafted goods made with <br>
+        real passion and craftmanship</p>
+    </div>
+    <div>
+      <img src="images/Purchase.png" alt="purchase" class="mx-auto">
+      <h1 class="text-[20px]">Unbeatable prices</h1>
+      <p class="text-[16px]">For our materials and quality you <br> won’t find better prices anywhere</p>
+    </div>
+    <div>
+      <img src="images/Sprout.png" alt="sprout" class="mx-auto">
+      <h1 class="text-[20px]">Recycled packaging</h1>
+      <p class="text-[16px]">We use 100% recycled packaging to <br> ensure our footprint is manageable</p>
+    </div>
+  </div>
+  </section>
+ 
+
+  <section class="h-auto mt-20">
+    
+    <div class="lg:pl-12 pl-5">
+      <h1 class="text-[32px]">New Ceramics</h1>
+    </div>
+  
+    
+    <div class="flex flex-wrap justify-center gap-5 mt-2">
+      
+      <div class="w-[45%] lg:w-[22%] text-center">
+        <img src="images/dandy.png" alt="The Dandy Chair" class="transition-transform duration-300 hover:scale-90">
+        <h1 class="text-[18px] font-medium">The Dandy Chair</h1>
+        <p class="text-[16px] text-gray-600">£250</p>
+      </div>
+      
+      <div class="w-[45%] lg:w-[22%] text-center">
+        <img src="images/pots.png" alt="Rustic Vase Set" class="transition-transform duration-300 hover:scale-90">
+        <h1 class="text-[18px] font-medium">Rustic Vase Set</h1>
+        <p class="text-[16px] text-gray-600">£250</p>
+      </div>
+      
+      <div class="w-[45%] lg:w-[22%] text-center">
+        <img src="images/vessel.png" alt="The Silky Vase" class="transition-transform duration-300 hover:scale-90">
+        <h1 class="text-[18px] font-medium">The Silky Vase</h1>
+        <p class="text-[16px] text-gray-600">£125</p>
+      </div>
+      
+      <div class="w-[45%] lg:w-[22%] text-center">
+        <img src="images/lamp.png" alt="The Lucy Lamp" class="transition-transform duration-300 hover:scale-90">
+        <h1 class="text-[18px] font-medium">The Lucy Lamp</h1>
+        <p class="text-[16px] text-gray-600">£250</p>
+      </div>
+    </div>
+  
+    
+    <div class="flex justify-center mt-8">
+      <button class="bg-gray-300 text-black py-3 px-6 rounded-md hover:bg-gray-200">
+        View Collection
+      </button>
+    </div>
+  </section>
+  
+
+  <section class="h-auto mt-10">
+      <div class="lg:pl-12 pl-5">
+      <h1 class="text-[32px]">Our popular products</h1>
+      </div>
+  
+    <div class="flex flex-wrap justify-center gap-5">
+    <div class="w-[90%] lg:w-[45.5%] text-center">
+      <img src="images/Large.png" alt="sofa" class="transition-transform duration-300 hover:scale-90">
+      <h1>The Poplar suede sofa</h1>
+      <p>£980</p>
+    </div>
+    <div class="w-[45%] lg:w-[22%] text-center">
+      <img src="images/dandy.png" alt="dandy" class="transition-transform duration-300 hover:scale-90">
+      <h1>The Dandy chair</h1>
+      <p>£250</p>
+    </div>
+    <div class="w-[45%] lg:w-[22%] text-center">
+      <img src="images/graychair.png" alt="chair" class="transition-transform duration-300 hover:scale-90">
+      <h1>The Dandy chair</h1>
+      <p>£250</p>
+    </div>
+  </div>
+
+    <div class="justify-center flex pt-5">
+      <button class="bg-gray-300 py-3 px-4">View collection</button>
+    </div>
+  </section>
+
+
+  
+  <section class="h-auto mt-16">
+    <div class="space-y-4">
+    <div class="flex justify-center">
+    <h1 class="lg:text-[36px] text-[24px]">Join the club and get the benefits</h1>
+    </div>
+    <div class="flex justify-center px-4">
+    <p class="lg:text-[16px] text-[15px] text-center">Sign up for our newsletter and receive exclusive offers on new <br class="hidden lg:flex"> ranges, sales, pop up stores and more</p>
+    </div>
+    <div class="flex justify-center pt-10 px-4 lg:px-0">
+      <input type="email" placeholder="you@gmail.com" class="border-2 lg:px-14 px-8">
+      <button class="bg-[#2A254B] text-white lg:py-3 py-2 lg:px-8 px-3">Sign up</button>
+    </div> 
+  </div>
+  </section>
+
+  <section class="h-auto mt-20">
+    <div class="flex justify-center items-center gap-10 mb-5 flex-col lg:flex-row">
+    <div class="space-y-5 px-4 lg:px-0">
+      <h1 class="lg:text-[24px] text-[23px]">From a studio in London to a global brand with <br class="hidden lg:flex"> over 400 outlets</h1>
+      <p class="lg:text-[16px] text-[15px]">When we started Avion, the idea was simple. Make high quality furniture <br class="hidden lg:flex">
+         affordable and available for the mass.</p> 
+         <p class= "text-[15px] lg:text-[16px] mt-5">Handmade, and lovingly crafted furniture and homeware is what 
+        we live <br class="hidden lg:flex">,breathe and design so our Chelsea boutique become the hotbed for the <br class="hidden lg:flex">
+        London interior design community.</p>
+     <div class="mt-20  flex lg:justify-start justify-center">
+      <button class="bg-gray-300 px-3 lg:py-3 py-2">Get in touch</button>
+     </div> 
+     </div>
+
+    <div class="w-[350px] h-[350px] lg:w-[500px] lg:h-[500px]">
+      <img src="images/whitesofa.png" alt="white sofa"
+      width="500"
+      height="500"
+      class="transition-transform duration-300 hover:scale-90">
+    </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#2A254B]">
+    <div class="flex justify-around pt-10 border-b-[1px] border-gray-500 pb-20 flex-col lg:flex-row space-y-6 lg:space-y-0 pl-5 lg:pl-0">
+      
+      <div className="space-y-2">
+      <h1><a class="text-white" href='/'>Menu</a></h1>
+        <h1><a class="text-white" href='/'>Arrivals</a></h1>
+        <h1><a class="text-white" href='/'>Best sellers</a></h1>
+        <h1><a class="text-white"href='/'>Recently viewed</a></h1>
+        <h1><a class="text-white"href='/'>Popular this week</a></h1>
+        <h1><a class="text-white"href='/'>All Products</a></h1>
+      </div>
+
+      <div className="space-y-2">
+        <h1><a class="text-white" href='/'>Categories</a></h1>
+          <h1><a class="text-white" href='/'>Crockery</a></h1>
+          <h1><a class="text-white" href='/'>Furniture</a></h1>
+          <h1><a class="text-white"href='/'>Homeware</a></h1>
+          <h1><a class="text-white"href='/'>Plant pots</a></h1>
+          <h1><a class="text-white"href='/'>Chairs</a></h1>
+          <h1><a class="text-white"href='/'>Crockery</a></h1>
+        </div>
+      
+
+        <div className="space-y-2">
+          <h1><a class="text-white" href='/'>Our Company</a></h1>
+            <h1><a class="text-white" href='/'>About us</a></h1>
+            <h1><a class="text-white" href='/'>Vacancies</a></h1>
+            <h1><a class="text-white"href='/'>Contact us</a></h1>
+            <h1><a class="text-white"href='/'>Privacy</a></h1>
+            <h1><a class="text-white"href='/'>Return policy</a></h1>
+          </div>
+
+          <div class="space-y-2">
+          <h1><a class="text-white" href='/'>Join our mailing list</a></h1>
+          <div>
+          <input type="email" placeholder="your@gmail.com" class="bg-[#FFFFFF26] w-64 h-10">
+          <button class="bg-white text-[#2A254B] px-3 py-2">Sign up</button>
+        </div>
+        </div>
+          </div>
+          <div class="flex justify-between px-10 lg:pt-10">
+          <div class="mx-auto lg:mx-0 py-10 lg:py-0">
+            <h1 class="text-white">Copyright 2022 Avion LTD</h1>
+          </div>
+
+          <div class="space-x-3 hidden lg:flex lg:pb-5">
+            <i class="fa-brands fa-linkedin fa-2x text-white"></i>
+            <i class="fa-brands fa-facebook fa-2x text-white"></i>
+            <i class="fa-brands fa-instagram fa-2x text-white"></i>
+            <i class="fa-brands fa-skype fa-2x text-white"></i>
+            <i class="fa-brands fa-square-twitter fa-2x text-white"></i>
+            <i class="fa-brands fa-pinterest fa-2x text-white"></i>
+          </div>
+        </div>
+  </footer>
+
+</body>
+<script src="./scripts.js"></script>
+</html>
